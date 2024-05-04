@@ -30,15 +30,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
    Clone the repository inside your oh-my-zsh repo:
 
-  git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+   `git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions`
 
   Add it to FPATH in your .zshrc by adding the following line before source "$ZSH/oh-my-zsh.sh":
 
-  fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+  `fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src`
 
- ## zsh-256colors
+  done
 
-    cd $ZSH_CUSTOM/plugin
-
-    git clone https://github.com/chrissicool/zsh-256color
 
